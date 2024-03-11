@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="container1">
+        <form action="">
+        <div class="form-group">
+            <label>Id</label>
+            <input class="form-control" id="id">
+        </div>
+
+        <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" id="name">
+        </div>
+
+        <div class="form-group">
+            <label>Code</label>
+            <input class="form-control" id="code">
+        </div>
+
+        <div class="form-group">
+            <label>Image</label>
+            <input type="file" id="image">
+        </div>
+
+        <div class="form-group">
+            <label>Price</label>
+            <input class="form-control" id="price">
+        </div>
+
+    </form>
+        <button onclick="Save()" class="btn btn-primary bt">Save</button>
+        <button onclick="Show()" class="btn btn-primary bt">Show</button>
+        <button onclick="Reset()" class="btn btn-primary bt">Reset</button>
+    </div>
+
+    <br>
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row" id="tbl">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
